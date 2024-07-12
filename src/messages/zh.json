@@ -1,0 +1,14 @@
+{
+  "Common": {
+    "english": "English",
+    "chinese": "中文"
+  },
+  "Profile": {
+    "username": "用户名",
+    "email": "邮箱",
+    "phone": "电话",
+    "editProfile": "编辑资料",
+    "save": "保存",
+    "cancel": "取消"
+  }
+}

@@ -1,6 +1,8 @@
 "use client";
 
 import { ThemeProvider as NextThemesProvider } from "next-themes";
+import { ThemeProvider as DidThemesProvider } from '@did-connect/react';
+
 import {
   ThemeProvider as MuiThemeProvider,
   createTheme,
@@ -50,11 +52,13 @@ export function Providers({
 
   return (
     <Provider store={store}>
-      <NextThemesProvider attribute="class" defaultTheme="system" enableSystem>
-        <QueryClientProvider client={queryClient}>
-          <ThemeHandler>{children}</ThemeHandler>
-        </QueryClientProvider>
-      </NextThemesProvider>
+      <DidThemesProvider>
+        <NextThemesProvider attribute="class" defaultTheme="system" enableSystem>
+          <QueryClientProvider client={queryClient}>
+            <ThemeHandler>{children}</ThemeHandler>
+          </QueryClientProvider>
+        </NextThemesProvider>
+      </DidThemesProvider>
     </Provider>
   );
 }

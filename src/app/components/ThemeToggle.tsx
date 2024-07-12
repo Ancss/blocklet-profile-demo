@@ -20,6 +20,7 @@ export default function ThemeToggle() {
 
   return (
     <IconButton
+    className="!text-white hover:bg-white/10"
       onClick={() => {
         const newTheme = themeMode === "light" ? "dark" : "light";
         dispatch(setTheme(newTheme));

@@ -1,0 +1,92 @@
+2024-07-12T14:13:49: PM2 log: ===============================================================================
+2024-07-12T14:13:49: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2024-07-12T14:13:49: PM2 log: Time                 : Fri Jul 12 2024 14:13:49 GMT+0000 (Coordinated Universal Time)
+2024-07-12T14:13:49: PM2 log: PM2 version          : 5.4.0
+2024-07-12T14:13:49: PM2 log: Node.js version      : 20.15.1
+2024-07-12T14:13:49: PM2 log: Current arch         : x64
+2024-07-12T14:13:49: PM2 log: PM2 home             : /home/arcblock/.arcblock/abtnode
+2024-07-12T14:13:49: PM2 log: PM2 PID file         : /home/arcblock/.arcblock/abtnode/pm2.pid
+2024-07-12T14:13:49: PM2 log: RPC socket file      : /home/arcblock/.arcblock/abtnode/rpc.sock
+2024-07-12T14:13:49: PM2 log: BUS socket file      : /home/arcblock/.arcblock/abtnode/pub.sock
+2024-07-12T14:13:49: PM2 log: Application log path : /home/arcblock/.arcblock/abtnode/logs
+2024-07-12T14:13:49: PM2 log: Worker Interval      : 30000
+2024-07-12T14:13:49: PM2 log: Process dump file    : /home/arcblock/.arcblock/abtnode/dump.pm2
+2024-07-12T14:13:49: PM2 log: Concurrent actions   : 2
+2024-07-12T14:13:49: PM2 log: SIGTERM timeout      : 1600
+2024-07-12T14:13:49: PM2 log: ===============================================================================
+2024-07-12T14:13:51: PM2 log: App [abt-node-event-hub:0] starting in -fork mode-
+2024-07-12T14:13:54: PM2 log: App [abt-node-event-hub:0] online
+2024-07-12T14:14:02: PM2 log: App [abt-node-service:1] starting in -cluster mode-
+2024-07-12T14:14:05: PM2 log: App [abt-node-service:1] online
+2024-07-12T14:14:08: PM2 log: App [abt-node-daemon:2] starting in -fork mode-
+2024-07-12T14:14:11: PM2 log: App [abt-node-daemon:2] online
+2024-07-12T14:14:25: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:3] starting in -fork mode-
+2024-07-12T14:14:27: PM2 log: Stopping app:z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv id:3
+2024-07-12T14:14:27: PM2 log: pid=940 msg=failed to kill - retrying in 100ms
+2024-07-12T14:14:27: PM2 log: pid=940 msg=failed to kill - retrying in 100ms
+2024-07-12T14:14:28: PM2 log: pid=940 msg=failed to kill - retrying in 100ms
+2024-07-12T14:14:28: PM2 log: pid=940 msg=failed to kill - retrying in 100ms
+2024-07-12T14:14:28: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:3] exited with code [0] via signal [SIGINT]
+2024-07-12T14:14:28: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:3] will restart in 300ms
+2024-07-12T14:14:28: PM2 log: pid=940 msg=process killed
+2024-07-12T14:14:28: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:3] online
+2024-07-12T14:14:28: PM2 error: Cancelling versioning data parsing
+2024-07-12T14:16:28: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:4] starting in -fork mode-
+2024-07-12T14:16:31: PM2 log: Stopping app:z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv id:4
+2024-07-12T14:16:31: PM2 log: pid=1576 msg=failed to kill - retrying in 100ms
+2024-07-12T14:16:31: PM2 log: pid=1576 msg=failed to kill - retrying in 100ms
+2024-07-12T14:16:31: PM2 log: pid=1576 msg=failed to kill - retrying in 100ms
+2024-07-12T14:16:31: PM2 log: pid=1576 msg=failed to kill - retrying in 100ms
+2024-07-12T14:16:31: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:4] exited with code [0] via signal [SIGINT]
+2024-07-12T14:16:31: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:4] will restart in 300ms
+2024-07-12T14:16:31: PM2 log: pid=1576 msg=process killed
+2024-07-12T14:16:31: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:4] online
+2024-07-12T14:16:32: PM2 error: Cancelling versioning data parsing
+2024-07-12T14:22:33: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:5] starting in -fork mode-
+2024-07-12T14:22:36: PM2 log: Stopping app:z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv id:5
+2024-07-12T14:22:36: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:5] online
+2024-07-12T14:22:37: PM2 log: pid=3047 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:37: PM2 log: pid=3047 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:37: PM2 log: pid=3047 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:37: PM2 log: pid=3047 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:37: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:5] exited with code [0] via signal [SIGINT]
+2024-07-12T14:22:37: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:5] will restart in 300ms
+2024-07-12T14:22:37: PM2 log: pid=3047 msg=process killed
+2024-07-12T14:22:37: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:5] starting in -fork mode-
+2024-07-12T14:22:40: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:5] online
+2024-07-12T14:22:43: PM2 log: Stopping app:z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv id:5
+2024-07-12T14:22:43: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:43: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:43: PM2 log: Stopping app:z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv id:5
+2024-07-12T14:22:43: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:43: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:43: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:43: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:43: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:43: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:43: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:43: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:43: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:43: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:43: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:43: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=failed to kill - retrying in 100ms
+2024-07-12T14:22:44: PM2 log: Process with pid 3079 still alive after 1600ms, sending it SIGKILL now...
+2024-07-12T14:22:44: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:5] exited with code [0] via signal [SIGKILL]
+2024-07-12T14:22:44: PM2 log: App [z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv/z2qaEU4WySXKE7Nn1WUGuFvUFfxhvfvK7e6Kv:5] will restart in 300ms
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=process killed
+2024-07-12T14:22:44: PM2 log: pid=3079 msg=process killed
+2024-07-12T14:22:44: PM2 error: 5 id unknown
